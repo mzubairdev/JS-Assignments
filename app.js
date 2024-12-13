@@ -102,3 +102,33 @@
 // Chapter-03 ended
 
 // Chapter-04 started:
+// 1. Declare 3 variables in one statement.
+// var num1,num2,num3;
+
+// 2. Declare 5 legal & 5 illegal variable names.
+// // legal:
+// var $variable;
+// var _variable;
+// var variabel123;
+// var variableName;
+// var VariableName;
+
+// // illegal:
+// var 123variable;
+// var #variable;
+// var variable name;
+// var break;
+// var variable-name1;
+
+// 3. Display this in your browser 
+// // a) A heading stating "Rules for naming JS variables"
+// // b) Variable names can only contain _________,_________and_________. For example $my_1stVariable
+// document.write("Variable names can only contain numbers, $ and _. For example: $my_1stVariable <br>");
+// // c) Variables must begin with a_________,_________or_________. For example $name, _name or name 
+// document.write("Variables must begin with a letter, $ and _ . For example $name, _name or name <br>");
+// // d) Variable names are case _________.
+// document.write("Variable names are case sensitive <br>");
+// // e) Variable names should not be JS _________.
+// document.write("Variable names should not be JS keywords");
+// Chapter-04 ended
+
