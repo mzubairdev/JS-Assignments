@@ -28,3 +28,5 @@
 // 7. Practice placement of <script></script> element in following sections of your project in exercise 
 // 6: a. Head b. Body (before your page's HTML) c. Body (Inside your page's HTML)  d. Body (After your page's HTML).
 // Chapter-01 ended.
+
+// chapter-02 started:
