@@ -75,3 +75,5 @@
 // var specialDesign = "“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”";
 // alert(specialDesign);
 // Chapter-02 ended
+
+// Chapter-03 started:
