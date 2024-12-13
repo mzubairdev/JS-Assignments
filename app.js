@@ -132,3 +132,4 @@
 // document.write("Variable names should not be JS keywords");
 // Chapter-04 ended
 
+// Chapter-05 started:
