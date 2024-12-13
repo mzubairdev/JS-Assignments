@@ -100,3 +100,5 @@
 // var quantity = 5;
 // document.write("<b>" + visitorName + "</b>" + " ordered " + "<b>" + quantity + " " + productTitle + "</b>" + size + " on XYZ Clothing Store ");
 // Chapter-03 ended
+
+// Chapter-04 started:
