@@ -38,6 +38,18 @@
 //   console.log("Number is not divisble by 3");
 // }
 
+// 6. Write a program that takes a character(number or string) in a variable & checks whether the given input is a number, uppercase letter or lower case letter. (Hint: ASCII codes:- A=65, Z=90, a=97, z=122)
+// var char = prompt("Enter your character / number");
+// if (char >= "A" && char <= "Z") {
+//   console.log("uppercase letter");
+// } else if (char >= "a" && char <= "z") {
+//   console.log("lowercase letter");
+// } else if (char >= "0") {
+//   console.log("number");
+// } else {
+//   console.log("Invalid Input");
+// }
+
 // 7. Write a program to create a calculator for +, -, *, /, % using  If else, else if statements. (number1, number2 and operator will be input)
 // var num1 = +prompt("Enter First Number");
 // var operator = prompt("Enter Operator here");
@@ -52,6 +64,36 @@
 //   console.log(num1 / num2);
 // } else if (operator === "%") {
 //   console.log(num1 % num2);
+// }
+
+// 8. Write a program that takes time as input from user in 24 hours clock format like: 1900 = 7pm. Implement the following case using if, else & else if statements.
+// var time = +prompt("Enter time in 24-hour i.e: 1900 = 7pm. / 0200 = 2am");
+// if (time >= 0 && time < 1200) {
+//   console.log("Good Morning");
+// } else if (time >= 1200 && time < 1700) {
+//   console.log("Good Afternoon");
+// } else if (time >= 1700 && time < 2100) {
+//   console.log("Good evening");
+// } else if (time >= 2100 && time <= 2359) {
+//   console.log("Good Night");
+// } else {
+//   console.log("incorrect Number");
+// }
+
+// 9. Write a program that takes a calendar year in YYYY format in a variable. Check & notify the user whether it is a leap year or not.
+// var year = prompt("Enter Year: YYYY");
+// if (year % 4 === 0) {
+//   if (year % 100 === 0) {
+//     if (year % 400 === 0) {
+//       console.log(year + " is a leap year.");
+//     } else {
+//       console.log(year + " is NOT a leap year.");
+//     }
+//   } else {
+//     console.log(year + " is a leap year.");
+//   }
+// } else {
+//   console.log(year + " is NOT a leap year.");
 // }
 
 // 10. Write a program that
@@ -118,6 +160,34 @@
 //   console.log("its negative");
 // } else {
 //   console.log("Enter correct number here");
+// }
+
+// 15. Ask the user what the current hour is. If the hour is between 6 and 9 a.m., tell the user, "Breakfast is served." If the hour is between 11 a.m. and 1 p.m., tell the user, "Time for lunch." If the hour is between 5 and 8 p.m., tell the user, "It's dinner time." For any other hours, tell the user, "Sorry, you'll have to wait, or go get a snack." (Hint: Store the hour in 24 hours clock format i.e. 14 for 2pm, 15 for 3pm)
+
+// var hour = +prompt("Enter current hour in 24 hours i.e. 14 for 2pm, 15 for 3pm ");
+// if (hour >= 6 && hour <= 9) {
+//   console.log("Brakfast is served");
+// } else if (hour >= 11 && hour <= 13) {
+//   console.log("Time for lunch");
+// } else if (hour >= 17 && hour <= 20) {
+//   console.log("Its dinner time");
+// }   else {
+//   console.log("Sorry, you'll have to wait, or go get some snack ");
+// }
+
+//16. Write a program that stores value in a variable & tell whether the type of that variable is a "number", "string", "boolean" or "undefined".
+
+// var input = prompt("Enter a value:");
+// if (input === "true" || input === "false") {
+//   console.log("The type is boolean");
+// } else if (Number(input) == input) {
+//   console.log("The type is number");
+// } else if (input === null) {
+//   console.log("The type is undefined");
+// } else if (input !== Number(input)) {
+//   console.log("The type is string");
+// } else {
+//   console.log("Invalid value");
 // }
 
 // 17. Write a program that takes a character (i.e. string of length 1) and returns true if it is a vowel, false otherwise.
